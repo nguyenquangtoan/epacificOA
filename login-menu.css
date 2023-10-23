@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.top_menu_item_image{
+    height:50px;
+    width:50px;
+    padding:0px;
+
+  }
+  .top_menu_item_image_outbound{
+    padding:0px 18px;
+  }
+  
+  .top_menu_item{
+    padding:10px 6px;
+    height:80px;
+    width:85px;
+    border-radius:10px;
+    
+    display:block;
+    margin:10px;
+    float:left;
+    cursor: pointer;
+    
+  }
+  
+  .top_menu_item:hover{
+    background-color: #efefef;
+  
+  }
+  
+  .top_menu_item_title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+  }
+  
