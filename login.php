@@ -33,7 +33,7 @@ if($logout == 1){
         $password = '123';
 
     }else{
-        $username = "shayn@vinova.com.sg";
+        $username = "namdoel1412";
         $password = '123';
     }
 

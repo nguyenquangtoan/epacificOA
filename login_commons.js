@@ -27,7 +27,7 @@ var token_name = 'ai_open_access_token';
 var refresh_token_name = 'ai_open_refesh_token';
 
 // var domain_name = 'platform.epacific.net';
-var domain_name = 'platform.epacific.net';
+var domain_name ='local.epacific.net';
 var main_domain_name = 'epacific.net';
 var orgin_domain = '';
 var ssl = 's';
@@ -41,9 +41,16 @@ var token = '';
 var refresh_token = '';
 var info = '';
 
-var sign_in_url = root_url + 'login.php';
-var sign_out_url = root_url + 'login.php?logout=1';
 
+
+var identity_url = 'https://identity.epacific.net';
+var datastudio_url = 'https://datastudio.epacific.net';
+var eflowai_url = 'https://eflowai.epacific.net';
+var etouch_url = 'https://etouch.epacific.net';
+
+
+var sign_in_url = identity_url;
+var sign_out_url = identity_url;
 
 var account_more = [{
     name: 'Vu Anh Tuan',
@@ -69,25 +76,25 @@ account_more = [];
 var menu_item = {
     account: {
         name: 'Account',
-        link: 'https://identity-stg.epacific.net',
+        link: identity_url,
         image: root_url + 'account.svg',
         id: 'account',
     },
     data_studio: {
         name: 'Data Studio',
-        link: 'https://datastudio-stg.epacific.net',
+        link: datastudio_url,
         image: root_url + 'datastudio.svg',
         id: 'data_studio',
     },
     workflow_ai: {
         name: 'Workflow AI',
-        link: 'https://eflowai-stg.epacific.net',
+        link: eflowai_url,
         image: root_url + 'workflowai.svg',
         id: 'workflow_ai',
     },
     omni_agents: {
         name: 'Omni Agents',
-        link: 'https://etouch-stg.epacific.net',
+        link: etouch_url,
         image: root_url + 'omniagents.svg',
         id: 'omni_agents',
     },
@@ -312,5 +319,4 @@ function removeMoreAccount(p_access_token){
         }
     }
     localStorage.setItem('ai_login_account_list', JSON.stringify(data_array_new));
-
 }
