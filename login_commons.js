@@ -27,11 +27,11 @@ var token_name = 'ai_open_access_token';
 var refresh_token_name = 'ai_open_refesh_token';
 
 // var domain_name = 'platform.epacific.net';
-var domain_name ='local.epacific.net';
+var domain_name ='https://cdn.jsdelivr.net';
 var main_domain_name = 'epacific.net';
 var orgin_domain = '';
 var ssl = 's';
-var root_url = 'http' + ssl + '://' + domain_name + '/tools/toplogin2/';
+var root_url = 'http' + ssl + '://' + domain_name + '/gh/nguyenquangtoan/epacificOA@v0.0.3/';
 
 var top_account_url = root_url + 'loginbox_account.html';
 var top_component_url = root_url + 'loginbox_component.html';
@@ -43,10 +43,10 @@ var info = '';
 
 
 
-var identity_url = 'https://identity.epacific.net';
-var datastudio_url = 'https://datastudio.epacific.net';
-var eflowai_url = 'https://eflowai.epacific.net';
-var etouch_url = 'https://etouch.epacific.net';
+var identity_url = 'https://identity-stg.epacific.net';
+var datastudio_url = 'https://datastudio-stg.epacific.net';
+var eflowai_url = 'https://eflowai-stg.epacific.net';
+var etouch_url = 'https://etouch-stg.epacific.net';
 
 
 var sign_in_url = identity_url;
