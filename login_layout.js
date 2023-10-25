@@ -349,7 +349,7 @@ function validateToken(){
         console.log("token validate: ok");
         return true;
     }else{
-        refreshToken();
+        // refreshToken();
     }
 }
 
