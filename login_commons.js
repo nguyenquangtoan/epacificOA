@@ -31,7 +31,8 @@ var domain_name = "https://cdn.jsdelivr.net";
 var main_domain_name = "epacific.net";
 var orgin_domain = "";
 var ssl = "s";
-var root_url = domain_name + "/gh/nguyenquangtoan/epacificOA@prod/";
+var root_url =
+  "http" + ssl + "://" + domain_name + "/gh/nguyenquangtoan/epacificOA@prod/";
 
 var top_account_url = root_url + "loginbox_account.html";
 var top_component_url = root_url + "loginbox_component.html";
