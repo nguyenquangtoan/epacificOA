@@ -27,11 +27,11 @@ var token_name = 'ai_open_access_token';
 var refresh_token_name = 'ai_open_refesh_token';
 
 // var domain_name = 'platform.epacific.net';
-var domain_name ='https://cdn.jsdelivr.net';
+var domain_name ='cdn.jsdelivr.net';
 var main_domain_name = 'epacific.net';
 var orgin_domain = '';
 var ssl = 's';
-var root_url = domain_name + '/gh/nguyenquangtoan/epacificOA@main/';
+var root_url = 'http' + ssl + '://' + domain_name + '/gh/nguyenquangtoan/epacificOA@main/';
 
 var top_account_url = root_url + 'loginbox_account.html';
 var top_component_url = root_url + 'loginbox_component.html';
